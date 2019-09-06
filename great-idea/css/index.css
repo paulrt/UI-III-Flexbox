@@ -62,5 +62,32 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+* {
+	border: 1px solid red;
+}
 
+.nav-bar {
+	width: 100%;
+	margin: 10px;
+	padding: auto;
+	margin-top: 10px;
+	display: flex;
+	flex: space-between;
+}
+.header {
+	width: 100%;
+	margin: auto;
+	padding: auto;
+	margin-top: auto;
+	display: flex;
+	justify-content: space-around;
+.header .header-text a {
+	font-weight: flex-shrink;
+	font-size-adjust: 10px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+/*	align-items: stetch;*/
+	};
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
