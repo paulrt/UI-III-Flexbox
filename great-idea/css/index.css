@@ -156,17 +156,22 @@ p {
 }
 
 #three {
-	display:inline-block;
+	display:flexbox;;
 	width:32%;
 	box-sizing:content-box;
-
+	m
 }
+
+
+
+
+
 
 #one, #two, #three .p {
 	box-sizing:content-box;
 	width:25%;
 	margin:0 2%;
-}
+}	
 
 address {
 	border-top:1px solid black;
