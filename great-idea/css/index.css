@@ -199,8 +199,43 @@ p {
 }
 
 
+.serv-list .serv-listing button {
+	background:white;
+	margin:20px 0 0;
+	padding:5px 10px;
+	font-size:12px;
+	border:1px solid black;
+	cursor: pointer;
+	width:100%;
+	text-align:center;
+	border-radius:7%;
+}
 
+.serv-bottom {
+	border-top:2.5px solid black;
+	margin-top:30px;
+	padding-top:40px;
+	display:flex;
+}
 
+.serv-bottom-text {
+	margin:0 60px 20px 0;
+}
+
+.serv-bottom ul {
+	margin:20px 0;
+}
+
+.serv-bottom li {
+	list-style-type:square;
+	margin-left:20px;
+	line-height:1.75;
+} 
+
+.serv-bottom-text p,
+.serv-bottom-text li {
+	font-size:500;
+}
 
 footer p {
 	margin:75px 0 25px;
