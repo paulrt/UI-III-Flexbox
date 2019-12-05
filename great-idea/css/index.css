@@ -66,13 +66,15 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .nav-bar {
 	max-width:100%;
-	display:inline-block;
+	display:flex;
 	width:100%;
 	margin-top:5%;
-}
+	align-items:baseline;
+ }
+
 
 .logo {
-	display:inline-block;
+	display:flex;
 	/* margin-left:65%; */
 	margin:0 auto;
 	position:absolute;
@@ -85,15 +87,19 @@ nav a {
 	text-decoration:none;
 	color:gray;
 	margin:20px 20px 20px 20px;
+	display:flex;
 	padding:1%;
+	display:flex;
+	
 }
+
 
 
 h2 {
 	font-weight: 800;
 	text-decoration: none;
 	font-size:44px;
-	display:inline-block;
+	display:flex;
 	color:black;
 }
 
@@ -111,7 +117,7 @@ p {
 #gStarted {
 	margin-left:20%;
 	width:100px; height:100px;
-	margin-bottom:10%;
+	margin-bottom:0, auto, 10%, 20%; ;
 }
 
 .globeOfScope-img {
@@ -120,7 +126,7 @@ p {
 }
 
 #features {
-	display:inline-block;
+	display:flex;
 	width:100%;
 	font-size:20px;	
 	margin:10% auto;
@@ -131,35 +137,35 @@ p {
 }
 
 #left {
-	display:inline-block;
+	display:flex;
 	width:49%;
 	/* margin-top:10%; */
 }
 
 #right {
-	display:inline-block;
+	display:flex;
 	width:49%;
 	/* margin-left:50%; */
 }
 
 #one {
-	display:inline-block;
+	display:flex;
 	width:32%;
 	box-sizing:content-box;
 }
 
 #two {
-	display:inline-block;
+	display:flex;
 	width:32%;
 	box-sizing:content-box;
 
 }
 
 #three {
-	display:flexbox;;
+	display:flex;
+	flex-direction:start;
 	width:32%;
 	box-sizing:content-box;
-	m
 }
 
 
