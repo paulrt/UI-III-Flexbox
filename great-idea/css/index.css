@@ -81,19 +81,19 @@ h1, h2, h3, h4, h5 {
 	top:50px; left:750px
 }
 
-.serv {
+.new{
 	display:flex;
 	justify-content: space-between;
 }
 
-.serv-text {
+.new-text {
 	display:flex;
 	flex-direction:column;
 	width:500px;
 	align-items:center;
 }
 
-.serv-text h1 {
+.new-text h1 {
 	font-size:77px;
 	margin-top:120px;
 	text-align:center;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5 {
 	width:400px;
 }
 
-.serv .serv-text button {
+.new .new-text button {
 	background:white;
 	margin-top:6px;
 	padding:8px 44px;
@@ -202,6 +202,11 @@ p {
 
 
 
+footer p {
+	margin:75px 0 25px;
+	text-align:center;
+	font-weight:800px;
+}
 
 #one, #two, #three .p {
 	box-sizing:content-box;
