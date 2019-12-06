@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	/* border:2px solid red; */
+	border:2px solid red;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -79,13 +79,12 @@ nav {
 	justify-content:flex-start;
 	margin:0 auto;
 	padding:1%;
-
 }
 
 .nav-bar {
 	width:100%;
 	display:flex;
-	width:70%;
+	width:90%;
 	margin-top:5%;
 	display:flex;
 	flex-direction:flex-grow;
@@ -96,10 +95,10 @@ nav {
 	display:flex;
 	/* margin-left:65%; */
 	margin:0 auto;
-	flex-wrap:wrap;
-	width:25%;
+	letter-spacing: 3px;
+	width:35%;
 	position:absolute;
-	top:75px; left:675px;
+	top:75px; left:650px;
 }
 
 nav a {
@@ -113,7 +112,22 @@ nav a {
 	flex-direction:flex-start;
 }
 
+.logo2 {
+	display:flex;
+	margin-left:120px;
+	display:flex;
+	align-items:relative;
+	box-sizing:border-box;
+	justify-content: stretch;
+}
 
+.logo3 {
+	width:100%;
+	margin:2.5%;
+	display:flex;
+	justify-content: center;
+	padding:1%;
+}
 
 h2 {
 	font-weight: 800;
@@ -219,4 +233,23 @@ address {
 	padding:5%;
 	width:100%;
 	text-align:center;
+}
+
+///The following is the CSS services style sheet for my Great Idea website.///
+///Although, I may have peppered some in where I thought they fit in the cascading order.///
+
+
+.boxes {
+	display:flex;
+	flex-direction:column;
+	padding:5%;
+	justify-content:center;
+	width:49%;
+}
+
+.column {
+	display:flex;
+}
+.col {
+	flex:2;
 }
