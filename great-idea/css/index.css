@@ -125,12 +125,16 @@ h2 {
 }
 
 .slogan {
-	margin-top:15%;
+	margin-top:8%;
 	margin-right:50%;
 	box-sizing:content-box;
 	text-align:center;
+	padding:3%;
 }
 
+.mid-stuff {
+	border-bottom:1px solid black;
+}
 
 #gStarted {
 	margin-left:20%;
@@ -140,34 +144,39 @@ h2 {
 
 .globeOfScope-img {
 	position: absolute;
-	top:225px; left:550px;
+	top:175px; left:550px;
+	/* margin-bottom: 0%; */
+	padding: 3%;
+}
+
+.middle-img {
+	display:flex;
+	justify-content: center;
+	margin-left:5%;
+
 }
 
 #features {
+	margin-top:1px solid black;
+	padding:5%;
 	display:flex;
-	width:50%;
-	font-size:20px;	
-	margin-left:2%;
-	padding:2%;
-	text-decoration:none;
-	color:black;
-	border-top:1px solid black;
-	align-items:center;
-
-	justify-content: space-evenly;
 }
+	
 #left {
 	display:flex;
-	margin:5% 10% 5% 5%;	/* margin-top:10%; */
+	padding:5%;
 	flex-direction:column;
-
-
 }
 
 #right {
 	display:flex;
 	/* margin-left:50%; */	
 	flex-direction:column;
+	padding:5%;
+}
+
+#features2 {
+	display:flex;
 }
 
 #one {
@@ -175,6 +184,7 @@ h2 {
 	justify-content:space-evenly;
 	box-sizing:content-box;
 	flex-direction:column;
+	padding:5%;
 }
 
 #two {
@@ -182,6 +192,7 @@ h2 {
 	justify-content: space-evenly;	
 	box-sizing:content-box;
 	flex-direction:column;
+	padding:5%;
 }
 
 #three {
@@ -189,13 +200,14 @@ h2 {
 	justify-content:space-evenly;
 	box-sizing:content-box;
 	flex-direction:column;
+	padding:5%;
 }
 
-#one, #two, #three .p {
+/* #one, #two, #three .p {
 	box-sizing:content-box;
 	width:25%;
 	margin:0 2%;
-}
+} */
 
 address {
 	border-top:1px solid black;
@@ -208,6 +220,3 @@ address {
 	width:100%;
 	text-align:center;
 }
-
-
-
