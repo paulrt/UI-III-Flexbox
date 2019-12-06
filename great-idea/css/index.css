@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	border:2px solid red;
+	/* border:2px solid red; */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -65,191 +65,28 @@ h1, h2, h3, h4, h5 {
 }
 
 
-* {
-	border:2px solid red;
-	box-sizing:border-box;
-	max-width: 100%;
-	margin:0 auto;
-	padding:0;
-}
-
 
 nav {
 	display:flex;
-	justify-content:flex-start;
-	margin:0 auto;
-	padding:1%;
+	justify-content: space-between;
+	align-items:center;
 }
 
-.nav-bar {
-	width:100%;
-	display:flex;
-	width:90%;
-	margin-top:5%;
-	display:flex;
-	flex-direction:flex-grow;
-	
-}
-
-.logo {
-	display:flex;
-	/* margin-left:65%; */
-	margin:0 auto;
-	letter-spacing: 3px;
-	width:35%;
-	position:absolute;
-	top:75px; left:650px;
-}
 
 nav a {
-	width:100%;
-	margin:0 auto;
 	text-decoration:none;
 	color:gray;
-	margin:20px 20px 20px 20px;
-	padding:1%;
-	display:flex;
-	flex-direction:flex-start;
-}
-
-.logo2 {
-	display:flex;
-	margin-left:120px;
-	display:flex;
-	align-items:relative;
-	box-sizing:border-box;
-	justify-content: stretch;
-}
-
-.logo3 {
-	width:100%;
-	margin:2.5%;
-	display:flex;
-	justify-content: center;
 	padding:1%;
 }
-
-h2 {
-	font-weight: 800;
-	text-decoration: none;
-	font-size:44px;
-	display:flex;
-	color:black;
-	justify-content: center;
-}
-
-.slogan {
-	margin-top:8%;
-	margin-right:50%;
-	box-sizing:content-box;
-	text-align:center;
-	padding:3%;
-}
-
-.mid-stuff {
-	border-bottom:1px solid black;
-}
-
-#gStarted {
-	margin-left:20%;
-	width:80px; height:20px;
-	margin-bottom:10%;
-}
-
-.globeOfScope-img {
-	position: absolute;
-	top:175px; left:550px;
-	/* margin-bottom: 0%; */
-	padding: 3%;
-}
-
-.middle-img {
-	display:flex;
-	justify-content: center;
-	margin-left:5%;
-
-}
-
-#features {
-	margin-top:1px solid black;
-	padding:5%;
-	display:flex;
-}
-	
-#left {
-	display:flex;
-	padding:5%;
-	flex-direction:column;
-}
-
-#right {
-	display:flex;
-	/* margin-left:50%; */	
-	flex-direction:column;
-	padding:5%;
-}
-
-#features2 {
-	display:flex;
-}
-
-#one {
-	display:flex;
-	justify-content:space-evenly;
-	box-sizing:content-box;
-	flex-direction:column;
-	padding:5%;
-}
-
-#two {
-	display:flex;
-	justify-content: space-evenly;	
-	box-sizing:content-box;
-	flex-direction:column;
-	padding:5%;
-}
-
-#three {
-	display:flex;
-	justify-content:space-evenly;
-	box-sizing:content-box;
-	flex-direction:column;
-	padding:5%;
-}
-
-/* #one, #two, #three .p {
-	box-sizing:content-box;
-	width:25%;
-	margin:0 2%;
-} */
-
-address {
-	border-top:1px solid black;
-	padding:2%;
-}
-
-.copyright {
-	margin:0 auto;
-	padding:5%;
-	width:100%;
-	text-align:center;
-}
-
-///The following is the CSS services style sheet for my Great Idea website.///
-///Although, I may have peppered some in where I thought they fit in the cascading order.///
-
 
 .boxes {
-	display:flex;
-	flex-direction:column;
-	padding:5%;
-	justify-content:center;
-	width:49%;
+	border:1px solid black;
+	width:48%;
+	margin-top:1%;
 }
 
-.column {
+.parent {
 	display:flex;
-}
-.col {
-	flex:2;
+	flex-wrap:wrap;
+	justify-content:space-around;
 }
