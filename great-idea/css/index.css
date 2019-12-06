@@ -88,7 +88,7 @@ nav {
 	width:70%;
 	margin-top:5%;
 	display:flex;
-	flex-flow:row-wrap;
+	flex-direction:flex-grow;
 	
 }
 
@@ -99,7 +99,7 @@ nav {
 	flex-wrap:wrap;
 	width:25%;
 	position:absolute;
-	top:25px: left:25px;
+	top:75px; left:675px;
 }
 
 nav a {
@@ -145,46 +145,50 @@ h2 {
 
 #features {
 	display:flex;
-	width:100%;
+	width:50%;
 	font-size:20px;	
-	margin:10% auto;
+	margin-left:2%;
 	padding:2%;
 	text-decoration:none;
 	color:black;
 	border-top:1px solid black;
-}
+	align-items:center;
 
+	justify-content: space-evenly;
+}
 #left {
 	display:flex;
-	margin:0;	/* margin-top:10%; */
-		
+	margin:5% 10% 5% 5%;	/* margin-top:10%; */
+	flex-direction:column;
+
 
 }
 
 #right {
 	display:flex;
-	width:49%;
-	/* margin-left:50%; */
+	/* margin-left:50%; */	
+	flex-direction:column;
 }
 
 #one {
 	display:flex;
-	width:32%;
+	justify-content:space-evenly;
 	box-sizing:content-box;
+	flex-direction:column;
 }
 
 #two {
 	display:flex;
-	width:32%;
+	justify-content: space-evenly;	
 	box-sizing:content-box;
-
+	flex-direction:column;
 }
 
 #three {
 	display:flex;
-	width:32%;
+	justify-content:space-evenly;
 	box-sizing:content-box;
-
+	flex-direction:column;
 }
 
 #one, #two, #three .p {
