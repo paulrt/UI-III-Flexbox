@@ -21,6 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	/* border:2px solid red; */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -49,7 +50,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +64,29 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav {
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+
+nav a {
+	text-decoration:none;
+	color:gray;
+	padding:1%;
+}
+
+.boxes {
+	border:1px solid black;
+	width:48%;
+	margin-top:1%;
+}
+
+.parent {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
